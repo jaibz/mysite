@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0efd8320.css",
+    "main.css": "/static/css/main.ef9f615a.css",
     "main.js": "/static/js/main.8e0862ce.js",
     "static/js/453.cbbcd9d1.chunk.js": "/static/js/453.cbbcd9d1.chunk.js",
-    "static/media/PretendardVariable.woff2": "/static/media/PretendardVariable.2bc582461caf4e05b51d.woff2",
+    "static/media/test-soehne-halbfett.woff2": "/static/media/test-soehne-halbfett.c859f884b2462f16e6d6.woff2",
+    "static/media/test-soehne-buch.woff2": "/static/media/test-soehne-buch.8c5b0706d9418f6b95ee.woff2",
     "index.html": "/index.html",
-    "main.0efd8320.css.map": "/static/css/main.0efd8320.css.map",
+    "main.ef9f615a.css.map": "/static/css/main.ef9f615a.css.map",
     "main.8e0862ce.js.map": "/static/js/main.8e0862ce.js.map",
     "453.cbbcd9d1.chunk.js.map": "/static/js/453.cbbcd9d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0efd8320.css",
+    "static/css/main.ef9f615a.css",
     "static/js/main.8e0862ce.js"
   ]
 }
