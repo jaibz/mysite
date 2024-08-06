@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+:root {
+  --bg-color: #030303;
+  --text-color: #ffffff;
+  --secondary-text-color: #b4b4b4;
+  --border-color: #b4b4b4;
+  --font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Inter';
+  src: url('InterVariable.woff2') format('woff2-variations');
+  font-weight: 400 600;
+  font-display: block;
 }
 
-.App-header {
-  background-color: #282c34;
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
   min-height: 100vh;
+}
+
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#my-name {
+  font-size: 31px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#my-mail {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.social-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.arrow {
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .social-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+    padding: 20px;
   }
 }
