@@ -6,7 +6,7 @@ const Footer = () => (
     <nav className="social-links">
       <a href="https://www.truevote.in" target="_blank" rel="noopener noreferrer">TrueVote <span className="arrow">&#x2197;</span></a>
       <a href="https://www.linkedin.com/in/jai-bhaarath" target="_blank" rel="noopener noreferrer">LinkedIn <span className="arrow">&#x2197;</span></a>
-      <a href="https://www.instagram.com/jaibhaarath" target="_blank" rel="noopener noreferrer">Instagram <span className="arrow">&#x2197;</span></a>
+      <a href="https://www.instagram.com/jaibz_" target="_blank" rel="noopener noreferrer">Instagram <span className="arrow">&#x2197;</span></a>
       <a href="https://www.twitter.com/jaibz" target="_blank" rel="noopener noreferrer">Twitter <span className="arrow">&#x2197;</span></a>
     </nav>
   </footer>
