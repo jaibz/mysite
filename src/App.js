@@ -17,7 +17,7 @@ function App() {
     <div className="app-container">
       <main className="content">
         <h1 id="my-name">Jai Bhaarath</h1>
-        <a id="my-mail" href="mailto:contact@jaihq.com">contact@jaihq.com</a>
+        <a id="my-mail" href="mailto:hello@jaibhaarath.org">hello@jaibhaarath.org</a>
       </main>
       <Footer />
     </div>
