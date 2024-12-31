@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import './App.css';
 
-const Footer = () => (
+const Footer = memo(() => (
   <nav className="social-links">
     <a href="https://x.com/intent/follow?screen_name=jaibz" target="_blank" rel="noopener noreferrer">
       Twitter<span className="arrow">↗</span>
@@ -10,7 +10,9 @@ const Footer = () => (
       TrueVote<span className="arrow">↗</span>
     </a>
   </nav>
-);
+));
+
+Footer.displayName = 'Footer';
 
 function App() {
   return (
