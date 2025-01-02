@@ -85,7 +85,7 @@ h1 {
   transition: var(--transition);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
   position: relative;
   will-change: transform;
   contain: content;
@@ -111,8 +111,8 @@ social-links a:hover::after {
 }
 
 .arrow {
-  font-size: 0.875rem;
-  transition: var(--transition);
+  font-size: 1.25rem;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
   transform: translateZ(0);
 }

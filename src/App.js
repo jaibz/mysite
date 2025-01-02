@@ -4,10 +4,10 @@ import './App.css';
 const Footer = memo(() => (
   <nav className="social-links">
     <a href="https://x.com/intent/follow?screen_name=jaibz" target="_blank" rel="noopener noreferrer">
-      Twitter<span className="arrow">↗</span>
+      Twitter<span className="arrow">&#x2197;</span>
     </a>
     <a href="https://www.truevote.in" target="_blank" rel="noopener noreferrer">
-      TrueVote<span className="arrow">↗</span>
+      TrueVote<span className="arrow">&#x2197;</span>
     </a>
   </nav>
 ));
